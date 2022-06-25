@@ -10,4 +10,5 @@ build_script:
   - pwsh: |
       wsl -l -v
       wsl --install
+      wsl --help
 
