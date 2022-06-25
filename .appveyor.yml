@@ -9,3 +9,5 @@ clone_folder: C:\Users\appveyor\lnmp
 build_script:
   - pwsh: |
       wsl -l -v
+      wsl --install
+
