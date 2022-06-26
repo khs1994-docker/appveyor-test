@@ -12,4 +12,4 @@ build_script:
       wsl --install
       wsl --help
       curl.exe -SL https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe -O
-      Start-Process '.\Docker Desktop Installer.exe' -Wait install --accept-license
+      start /w "" "Docker Desktop Installer.exe" install --accept-license
