@@ -7,9 +7,9 @@ clone_folder: C:\Users\appveyor\lnmp
 # clone_folder: D:\lnmp
 
 build_script:
-  - cmd: |
+  - pwsh: |
       wsl -l -v
       wsl --install
       wsl --help
       curl.exe -SL https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe -O
-      start /w "" "Docker Desktop Installer.exe" install --accept-license
+      Start-Process '.\Docker Desktop Installer.exe' -Wait 'install','--accept-license'
