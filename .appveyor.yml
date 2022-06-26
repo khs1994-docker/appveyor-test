@@ -7,7 +7,7 @@ clone_folder: C:\Users\appveyor\lnmp
 # clone_folder: D:\lnmp
 
 build_script:
-  - pwsh: |
+  - cmd: |
       wsl -l -v
       wsl --install
       wsl --help
