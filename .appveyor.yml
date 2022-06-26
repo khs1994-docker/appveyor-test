@@ -1,11 +1,6 @@
 version: build-{build}.{branch}
 image: Previous Visual Studio 2022
 
-# skip_non_tags: true
-clone_depth: 1
-clone_folder: C:\Users\appveyor\lnmp
-# clone_folder: D:\lnmp
-
 build_script:
   - pwsh: |
       wsl -l -v
