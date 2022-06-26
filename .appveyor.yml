@@ -9,4 +9,4 @@ build_script:
       curl.exe -SL https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe -O
       ls
       pwd
-      Start-Process '.\Docker Desktop Installer.exe' -Wait 'install','--accept-license'
+      Start-Process '.\Docker%20Desktop%20Installer.exe' -Wait 'install','--accept-license'
